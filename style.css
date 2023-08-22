@@ -1,0 +1,83 @@
+.upper-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.right{
+    display: flex;
+    gap: 30px;
+    margin-right: 10px;
+}
+
+svg{
+    width: 1.3rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    margin: auto;
+    margin-top: 14%;
+    width: 30%;
+}
+
+
+.box > input{
+    padding: 15px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    border: 2px solid grey;
+}
+
+.but{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.but > button{
+    padding: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(218,218,218);
+    border: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 145px;
+    padding: 10px;
+    background-color: rgb(218,218,218);
+    margin-bottom: -13px;
+}
+
+.ad{
+    display: flex;
+    gap: 30px
+}
+
+.pr{
+    display: flex;
+    gap: 30px;
+}
+
+
+@media (max-width: 500px) {
+    .general-container{
+        width: 600px;
+        height: 50px;
+    }
+}
